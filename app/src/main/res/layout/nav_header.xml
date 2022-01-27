@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:gravity="bottom"
+    android:background="@drawable/nv_header_back"
+    android:paddingStart="20dp"
+    android:paddingBottom="10dp"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/nav_header_profile"
+        app:srcCompat="@drawable/im_avatar"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        app:shapeAppearanceOverlay="@style/circle"
+        android:layout_width="60dp"
+        android:layout_height="60dp"/>
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        android:text="Azizjon Sheronov"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginTop="5dp"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        android:text="azizjonsheronov26@gmail.com"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
